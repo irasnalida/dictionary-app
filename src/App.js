@@ -27,7 +27,7 @@ function App() {
   //console.log(meanings)
 
   useEffect(() => {
-    dictionaryApi();
+    dictionaryApi()
   }, [word]);
 
   return (
