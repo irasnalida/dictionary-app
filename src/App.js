@@ -12,6 +12,8 @@ function App() {
   const [word, setWord] = useState("")
   const [meanings, setMeanings] = useState([])
 
+  //async makes a function return a Promise
+  //await makes a function wait for a Promise
   const dictionaryApi = async() => {
     try{
       const data = await axios.get(
